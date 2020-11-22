@@ -1,15 +1,15 @@
 
-let screenSav =  document.getElementById("screen-save"); 
-screenSav.addEventListener("mouseover", mouseOver);
-screenSav.addEventListener("mouseout", function()
-{setTimeout(
-    function(){
-        screenSav.style.opacity = "1";
-    }, 1000)});
+// let screenSav =  document.getElementById("screen-save"); 
+// screenSav.addEventListener("mouseover", mouseOver);
+// screenSav.addEventListener("mouseout", function()
+// {setTimeout(
+//     function(){
+//         screenSav.style.opacity = "1";
+//     }, 1000)});
 
-function mouseOver() {
-    screenSav.style.opacity = "0";
-}
+// function mouseOver() {
+//     screenSav.style.opacity = "0";
+// }
  
 let height = document.documentElement.clientHeight;
 let width = document.documentElement.clientWidth;

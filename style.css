@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#screen-save {
+    background: url(img/screen-saver.jpeg) no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    transition: 0.4s ease;
+}
+#img {
+  /* animation: appear 5.4s infinite; */
+    transition: 0.4s ease;
+    width: auto;
+    height: 100%;
+    background: url(img/img6.jpeg) no-repeat;
+}
+@keyframes appear{
+    0%{
+opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+ 

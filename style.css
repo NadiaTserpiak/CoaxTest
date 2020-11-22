@@ -10,31 +10,30 @@
     transition: 0.4s ease;
     overflow: hidden;
 }
- 
+
 #img {
-  z-index: 0;
-  position: relative;
-  /* animation: appear 5s infinite; */
+    z-index: 0;
+    position: relative;
+    /* animation: appear 5s infinite; */
     transition: 0.4s ease;
     width: auto;
     height: 100%;
     background: url(img/img6.jpeg) no-repeat;
 }
-@keyframes appear{
-    0%{
-opacity: 0;
-    }
-    23%{
+@keyframes appear {
+    0% {
         opacity: 0;
     }
-    50%{
+    23% {
+        opacity: 0;
+    }
+    50% {
         opacity: 1;
     }
-    77%{
+    77% {
         opacity: 0;
     }
-    100%{
+    100% {
         opacity: 0;
     }
 }
- 
